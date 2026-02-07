@@ -35,7 +35,7 @@ Person::Person(int ag, const char* m_f, const char* nm, const char* fn, const ch
 	phone = new char[size];
 	strcpy(phone, phn);
 
-	count++;   // 👈 створили обʼєкт
+	count++;
 }
 
 Person::~Person()
@@ -81,9 +81,6 @@ Person::~Person()
 	name = new char[size];
 
 	strcpy(name, nm);
-
-
-
 }
 
 
