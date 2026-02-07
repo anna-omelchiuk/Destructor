@@ -16,12 +16,4 @@ int main()
 	cout << "Count після відалення масиву: " << Person::count << endl;
 
 	return 0;
-
-
-
-
-
-
-
-
-}////по завершенню роботи функціі обьект Person student; зруйнується
+}
